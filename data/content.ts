@@ -11,21 +11,21 @@ export const TESTIMONIALS = [
     id: 1,
     name: "Budi Santoso",
     role: "Pemilik Toko Kelontong",
-    content: "Sejak ambil barang di UD Cahaya Barokah, margin keuntungan saya naik. Pengiriman cepat dan barang selalu aman.",
+    content: "Harga grosirnya memang paling murah. Packing aman dan rapi",
     image: "/images/face2.jpg"
   },
   {
     id: 2,
     name: "Siti Aminah",
     role: "Ibu Rumah Tangga",
-    content: "Beli sembako bulanan buat keluarga besar jadi lebih hemat. Minyak dan beras kualitasnya top!",
+    content: "Sudah langganan 2 tahun. Cocok untuk toko kecil seperti saya",
     image: "/images/face1.jpg"
   },
   {
     id: 3,
     name: "Ruri Maryam",
     role: "Reseller",
-    content: "Adminnya ramah banget, respon cepat. Saya pesan pagi, sore resi sudah keluar. Recommended banget buat reseller.",
+    content: "Adminnya ramah, info jelas, dan transaksi mudah. Mantap",
     image: "/images/face3.jpg"
   }
 ];

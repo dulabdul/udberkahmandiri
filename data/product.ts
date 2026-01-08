@@ -1,11 +1,29 @@
-import { Product } from "@/types";
+export interface ProductItem {
+  name: string;
+  price: string;
+}
 
-export const PRODUCTS: Product[] = [
+export interface ProductGroup {
+  groupName: string;
+  items: ProductItem[];
+}
+
+export interface Product {
+  id: string;
+  name: string;
+  category: string;
+  description: string;
+  image: string;
+  rating: number;
+  priceList: ProductGroup[];
+}
+
+export const products: Product[] = [
 {
     id: "beras-premium",
     name: "Beras Premium",
     category: "Beras",
-    description: "Beras kualitas premium, medium, pulen, dan wangi dari berbagai merek terpercaya.",
+    description: "Kami menyediakan beras kualitas premium, medium, pulen, dan wangi",
     image: "/images/products/beras.png",
     rating: 5,
 priceList: [
@@ -94,7 +112,7 @@ priceList: [
     id: "minyak-goreng",
     name: "Minyak Goreng",
     category: "Minyak",
-    description: "Minyak goreng berbagai merek terpercaya (Bimoli, Sunco, Tropical, dll) dengan harga grosir.",
+    description: "Minyak goreng berbagai merek terpercaya tersedia lengkap dengan harga grosir",
     image: "/images/products/minyak.png",
     rating: 5,
    priceList: [
@@ -181,7 +199,7 @@ priceList: [
     id: "tepung-terigu",
     name: "Tepung Terigu",
     category: "Tepung",
-    description: "Tepung terigu untuk roti, kue, gorengan, dan kebutuhan usaha kuliner.",
+    description: "Tersedia tepung terigu untuk roti, kue, gorengan, dan kebutuhan usaha kuliner",
     image: "/images/products/tepung.png",
     rating: 5,
 priceList: [
@@ -211,7 +229,7 @@ priceList: [
     id: "mie-instan-sedap",
     name: "Mie Sedap Instan",
     category: "Mie",
-    description: "Mie Sedaap berbagai varian rasa dengan harga grosir per dus.",
+    description: "Kami menjual Mie Sedap dengan harga grosir, cocok untuk reseller dan toko",
     image: "/images/products/sedap.png",
     rating: 5,
 priceList: [
@@ -232,36 +250,12 @@ priceList: [
       }
     ]
   },
-    {
-    id: "gas-lpg",
-    name: "Gas LPG",
-    category: "Gas",
-    description: "Gas LPG 3 kg, 5.5 kg, dan 12 kg untuk agen dan pangkalan.",
-    image: "/images/products/gas.png",
-    rating: 5,
-    priceList: [
-      {
-        groupName: "Tabung Gas 3KG",
-        items: [
-          { name: "12 Biji", price: "Rp 1.000.000" },
-          { name: "50 Biji", price: "Rp 4.000.000" },
-          { name: "100 Biji", price: "Rp 8.000.000" },
-        ]
-      },
-      {
-        groupName: "Tabung Gas 12KG",
-        items: [
-          { name: "5 Biji", price: "Rp 1.000.000" },
-          { name: "11 Biji", price: "Rp 2.000.000" },
-        ]
-      }
-    ]
-  },
+
   {
     id: "kopi-sachet",
     name: "Kopi Sachet",
     category: "Minuman",
-    description: "Kopi sachet Good Day, Kapal Api, ABC, Indocafe lengkap.",
+    description: "Kami menyediakan kopi sachet pilihan lengkap dengan harga terjangkau",
     image: "/images/products/kopi-sachet.png",
     rating: 5,
 priceList: [
@@ -301,7 +295,7 @@ priceList: [
     id: "teh-kemasan",
     name: "Teh Kemasan",
     category: "Minuman",
-    description: "Teh celup dan serbuk berbagai merek (Sosro, SariWangi, 2 Tang, Poci).",
+    description: "Kami menyediakan teh celup, teh serbuk, dan lain-lain dengan pilihan lengkap",
     image: "/images/products/teh.png",
     rating: 5,
 priceList: [
@@ -504,7 +498,7 @@ priceList: [
     id: "mie-instan-indomie",
     name: "Indomie Mie Instan",
     category: "Mie",
-    description: "Indomie berbagai varian rasa dengan harga grosir per dus.",
+    description: "Kami menjual Indomie dengan harga grosir, cocok untuk reseller dan toko",
     image: "/images/products/indomie.png",
     rating: 5,
 priceList: [

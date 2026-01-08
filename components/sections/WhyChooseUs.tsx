@@ -16,11 +16,6 @@ const FEATURES = [
     title: 'Pengiriman Luas',
     desc: 'Layanan pengiriman produk kami cepat, aman, dan menjangkau berbagai daerah di Indonesia',
   },
-  {
-    icon: Award,
-    title: 'Kualitas Terjamin',
-    desc: 'Kami hanya menjual produk asli dengan masa kadaluarsa yang masih panjang dan aman.',
-  },
 ];
 
 export default function WhyChooseUs() {
@@ -28,14 +23,11 @@ export default function WhyChooseUs() {
     <section className='section-padding bg-gray-50'>
       <div className='container-custom'>
         <div className='text-center max-w-2xl mx-auto mb-16'>
-          <h2 className='text-3xl font-bold mb-4'>Kenapa Memilih Kami?</h2>
-          <p className='text-text-muted'>
-            Kami berkomitmen memberikan pelayanan terbaik untuk kelancaran
-            bisnis Anda.
-          </p>
+          <h2 className='text-3xl font-bold mb-4'>Keunggulan Layanan Kami</h2>
+          <p className='text-text-muted'>www.udcahayabarokah.com</p>
         </div>
 
-        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='grid md:grid-cols-1 lg:grid-cols-3 gap-8'>
           {FEATURES.map((feature, idx) => (
             <div
               key={idx}

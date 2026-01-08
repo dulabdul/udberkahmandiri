@@ -9,7 +9,7 @@ export default function AboutSection() {
       <div className='container-custom grid md:grid-cols-2 gap-12 items-center'>
         <div className='relative h-[400px] w-full rounded-2xl overflow-hidden shadow-lg'>
           <Image
-            src='/images/about.jpg'
+            src='/images/about.webp'
             alt='Gudang UD Cahaya Barokah'
             fill
             className='object-cover'
@@ -29,11 +29,20 @@ export default function AboutSection() {
               perusahaan, restoran, hotel, hingga kebutuhan pribadi dalam jumlah
               besar.
             </p>
+            <br />
             <p>
               Dengan sistem pemesanan yang mudah melalui WhatsApp, kami
               memastikan setiap pelanggan mendapatkan pengalaman belanja yang
               cepat, aman, dan nyaman. Stok sembako kami selalu tersedia dan
               diperbarui setiap hari.
+            </p>
+            <br />
+            <p>
+              Kami berkomitmen menjadi mitra terbaik bagi para pelaku usaha,
+              dengan menyediakan produk berkualitas, harga transparan, serta
+              pelayanan profesional. Kepercayaan pelanggan adalah prioritas
+              utama kami selama bertahun-tahun menjalankan bisnis grosir
+              sembako.
             </p>
           </div>
 

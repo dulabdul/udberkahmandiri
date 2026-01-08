@@ -13,11 +13,12 @@ export default function CtaBanner() {
             {SITE_CONFIG.name}
           </div>
           <h2 className='text-3xl md:text-5xl font-bold'>
-            Mulai Belanja Sembako Grosir Termurah Sekarang!
+            Belanja Grosir Sembako Lebih Murah
           </h2>
           <p className='text-lg md:text-xl text-green-50'>
-            Dapatkan penawaran terbatas untuk pembelian besar! Jaminan stok aman
-            dan pengiriman cepat ke seluruh Indonesia.
+            UD Cahaya Barokah menyediakan produk sembako murah seperti gula
+            pasir, minyak, beras, mie instan, dan kebutuhan pokok lainnya dengan
+            harga grosir terbaik
           </p>
           <Button
             href={`https://wa.me/${SITE_CONFIG.whatsappNumber}`}

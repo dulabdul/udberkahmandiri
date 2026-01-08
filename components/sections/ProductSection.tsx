@@ -7,7 +7,7 @@ import Modal from '../ui/Modal';
 
 import { Product } from '@/types';
 import { SITE_CONFIG } from '@/data/content';
-import { PRODUCTS } from '@/data/product';
+import { products } from '@/data/product';
 
 export default function ProductSection() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
@@ -33,7 +33,7 @@ export default function ProductSection() {
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
-          {PRODUCTS.map((product) => (
+          {products.map((product) => (
             <div
               key={product.id}
               className='bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-lg transition-all overflow-hidden group'>
