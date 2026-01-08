@@ -176,65 +176,7 @@ priceList: [
       }
     ]
   },
-    {
-    id: "minyak-kita",
-    name: "Minyak Kita",
-    category: "Minyak",
-    description: "Minyak Kita harga murah merakyat, tapi berkualitas tinggi untuk kesehatan keluarga",
-    image: "/images/products/minyak-kita.png",
-    rating: 5,
-  priceList: [
-      {
-        groupName: "PRODUK PT BINA KARYA PRIMA",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp150.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp152.800/dus isi 6pcs" }
-        ]
-      },
-      {
-        groupName: "PRODUK SINARMAS",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp 155.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp 160.800/dus isi 6pcs" }
-        ]
-      },
-      {
-        groupName: "PRODUK SANTOSO ABADI",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp 145.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp 150.800/dus isi 6pcs" }
-        ]
-      },
-      {
-        groupName: "PRODUK MAHESI AGRI KARYA",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp 149.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp 157.800/dus isi 6pcs" }
-        ]
-      },
-      {
-        groupName: "PRODUK WINGS FOOD",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp 165.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp 170.800/dus isi 6pcs" }
-        ]
-      },
-      {
-        groupName: "PRODUK TUNASAGRO INDOLESTARI",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp 138.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp 140.800/dus isi 6pcs" }
-        ]
-      },
-      {
-        groupName: "PRODUK PT RESTO PANGAN UTAMA",
-        items: [
-          { name: "Untuk 1 liter", price: "harga Rp 147.800/dus isi 12pcs" },
-          { name: "Untuk 2 liter", price: "harga Rp 151.800/dus isi 6pcs" }
-        ]
-      }
-    ]
-  },
+
   {
     id: "tepung-terigu",
     name: "Tepung Terigu",
