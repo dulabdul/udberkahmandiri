@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand Colors - Modern Grocery Theme */
+  --color-primary: #16A34A; /* Green 600 */
+  --color-primary-dark: #15803D; /* Green 700 */
+  --color-secondary: #F97316; /* Orange 500 */
+  --color-accent: #FEF3C7; /* Amber 100 */
+  --color-background: #F8FAFC; /* Slate 50 */
+  --color-text-main: #1E293B; /* Slate 800 */
+  --color-text-muted: #64748B; /* Slate 500 */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Custom Utilities */
+@layer utilities {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-background text-text-main antialiased;
 }
