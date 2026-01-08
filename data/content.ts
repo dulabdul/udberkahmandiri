@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   name: "UD Cahaya Barokah",
-  whatsappNumber: "6281234567890", // Ganti nomor disini
+  whatsappNumber: "6285750888471", // Ganti nomor disini
   email: "admin@udcahayabarokah.com",
   address: "alan Jend Sudirman No.3.5, Palembang, Sumatera Selatan, Indonesia",
 
