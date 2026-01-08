@@ -9,23 +9,23 @@ export const SITE_CONFIG = {
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: "Budi Santoso",
-    role: "Pemilik Toko Kelontong",
-    content: "Harga grosirnya memang paling murah. Packing aman dan rapi",
-    image: "/images/face2.jpg"
+    name: "Hendra Supriadi",
+    role: "Pemilik Warung Madura",
+    content: "Ngambil barang di sini enak, harganya bersaing dan konsisten. Packing rapi, jadi jarang ada drama barang rusak",
+    image: "/images/face_2.jpg"
   },
   {
     id: 2,
-    name: "Siti Aminah",
-    role: "Ibu Rumah Tangga",
-    content: "Sudah langganan 2 tahun. Cocok untuk toko kecil seperti saya",
-    image: "/images/face1.jpg"
+    name: "Rizky Manafi",
+    role: "ASN",
+    content: "Awalnya coba-coba, sekarang malah jadi langganan. Udah hampir 2 tahun dan selalu cocok buat skala toko kecil.",
+    image: "/images/face_1.jpg"
   },
   {
     id: 3,
-    name: "Ruri Maryam",
-    role: "Reseller",
-    content: "Adminnya ramah, info jelas, dan transaksi mudah. Mantap",
-    image: "/images/face3.jpg"
+    name: "Yulia Puspita",
+    role: "Freelancer",
+    content: "Pelayanannya oke, admin responsif dan jelas. Proses order sampai bayar juga cepat, nggak bikin ribet",
+    image: "/images/face_3.jpg"
   }
 ];

@@ -6,16 +6,18 @@ import CtaBanner from '@/components/sections/CtaBanner';
 import ProductSection from '@/components/sections/ProductSection';
 import Testimonials from '@/components/sections/Testimonials';
 import ContactSection from '@/components/sections/ContactSection';
+import WelcomeSection from '@/components/sections/WelcomeSection';
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <WelcomeSection />
       {/* <StatsSection /> */}
+      <ProductSection />
+      <CtaBanner />
       <AboutSection />
       <WhyChooseUs />
-      <CtaBanner />
-      <ProductSection />
       <Testimonials />
       <ContactSection />
     </>
