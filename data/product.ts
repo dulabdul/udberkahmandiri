@@ -115,81 +115,96 @@ priceList: [
     description: "Minyak goreng berbagai merek terpercaya tersedia lengkap dengan harga grosir",
     image: "/images/products/minyak.png",
     rating: 5,
-   priceList: [
+priceList: [
       {
-        groupName: "Minyak Bimoli",
+        groupName: "(Minyak Bimoli)",
         items: [
-          { name: "Harga 1 Karton Bimoli Minyak Goreng  Botol (Isi-12 kemasan botol 1 Liter)", price: "Rp. 175.500" },
-          { name: "Harga 1 Karton Bimoli Minyak Goreng Klasik (Isi-6 kemasan pouch 2 Liter)", price: "Rp. 185.777" },
-          { name: "Harga 1 Karton Bimoli N. Kolesterol (Isi-6 Kemasan 2 Liter)", price: "Rp. 180.000" },
-          { name: "Harga 1 Karton Bimoli Special Refill  (Isi-6 Kemasan 2 Liter)", price: "Rp. 184.200" },
-          { name: "Harga 1 Karton Bimoli Spesial Refill  (Isi-12 Kemasan 1 Liter)", price: "Rp. 182.500" },
-          { name: "Harga 1 Karton Minyak Goreng Bimoli Klasik Refill (Isi-12 Kemasan 1 Liter)", price: "Rp. 180.100" },
-          { name: "Harga 1karton Minyak goreng  Bimoli (Isi 4 kemasan 5 Liter)", price: "Rp. 300.000" },
-          { name: "Harga Minyak goreng Bimoli (Kemasan jerigen.18 Liter)", price: "Rp. 350.000" }
+          { name: "Harga 1 Karton Bimoli Minyak Goreng Botol ( Isi-12 Kemasan Botol 1 Liter )", price: "Rp. 140.500" },
+          { name: "Harga 1 Karton Bimoli Minyak Goreng Klasik ( Isi-6 Kemasan Pouch 2 Liter )", price: "Rp. 150.777" },
+          { name: "Harga 1 Karton Bimoli N. Kolesterol ( Isi-6 Kemasan 2 Liter )", price: "Rp. 150.000" },
+          { name: "Harga 1 Karton Bimoli Special Refill ( Isi-6 Kemasan 2 Liter )", price: "Rp. 155.200" },
+          { name: "Harga 1 Karton Bimoli Spesial Refill ( Isi-12 Kemasan 1 Liter )", price: "Rp. 150.500" },
+          { name: "Harga 1 Karton Minyak Goreng Bimoli Klasik Refill ( Isi-12 Kemasan 1 Liter )", price: "Rp. 150.100" },
+          { name: "Harga 1karton Minyak Goreng Bimoli (Isi 4 Kemasan 5 Liter)", price: "Rp. 220.000" },
+          { name: "Harga Minyak Goreng Bimoli (Kemasan Jerigen.18 Liter)", price: "Rp. 230.000" }
         ]
       },
       {
-        groupName: "Minyak Tropical",
+        groupName: "(Minyak Tropical)",
         items: [
-          { name: "Harga 1 Karton Tropical Non Kolesterol  (Isi-12 Kemasan 1 Liter)", price: "Rp. 180.500" },
-          { name: "Harga 1 Karton Tropical Non Kolesterol  (Isi-6 Kemasan 2 Liter)", price: "Rp. 185.500" }
+          { name: "Harga 1 Karton Tropical Non Kolesterol ( Isi-12 Kemasan 1 Liter )", price: "Rp. 145.500" },
+          { name: "Harga 1 Karton Tropical Non Kolesterol ( Isi-6 Kemasan 2 Liter )", price: "Rp. 144.500" }
         ]
       },
       {
-        groupName: "Minyak Sunco",
+        groupName: "(Minyak Sunco)",
         items: [
-          { name: "Harga 1 Karton Minyak Goreng Sunco  (Isi-12 Kemasan  Pouch 1 Liter)", price: "Rp. 179.500" },
-          { name: "Harga 1 Karton Minyak Goreng Sunco  (Isi-6 Kemasan  Pouch 2 Liter)", price: "Rp. 183.800" },
-          { name: "Harga 1 Karton Harga 1 Karton Minyak Goreng Sunco Refill  (Isi-12 Kemasan 1 Liter)", price: "Rp. 180.500" },
-          { name: "Harga 1 Karton Minyak Goreng Sunco Refill  (Isi-6 Kemasan 2 Liter)", price: "Rp.184.800" }
+          { name: "Harga 1 Karton Minyak Goreng Sunco ( Isi-12 Kemasan Pouch 1 Liter )", price: "Rp. 135.500" },
+          { name: "Harga 1 Karton Minyak Goreng Sunco ( Isi-6 Kemasan Pouch 2 Liter )", price: "Rp. 133.800" },
+          { name: "Harga 1 Karton Harga 1 Karton Minyak Goreng Sunco Refill ( Isi-12 Kemasan 1 Liter )", price: "Rp. 130.500" },
+          { name: "Harga 1 Karton Minyak Goreng Sunco Refill ( Isi-6 Kemasan 2 Liter )", price: "Rp.127.800" }
         ]
       },
       {
-        groupName: "Minyak Kunci Mas",
+        groupName: "(Minyak Kunci Mas)",
         items: [
-          { name: "Harga 1 Karton Minyak Goreng Kunci Mas  (Isi-12 Kemasan 1 Liter)", price: "Rp. 189.800" },
-          { name: "Harga 1 Karton Minyak Goreng Kunci Mas Refill  (Isi-6 Kemasan  2 Liter pouch)", price: "Rp. 190.500" }
+          { name: "Harga 1 Karton Minyak Goreng Kunci Mas ( Isi-12 Kemasan 1 Liter )", price: "Rp. 130.800" },
+          { name: "Harga 1 Karton Minyak Goreng Kunci Mas Refill ( Isi-6 Kemasan 2 Liter Pouch )", price: "Rp. 130.500" }
         ]
       },
       {
-        groupName: "Minyak Avena",
+        groupName: "(Minyak Avena)",
         items: [
-          { name: "Harga 1 Karton Avena Minyak Goreng  (Isi-12 Kemasan 1 Liter  Pouch)", price: "Rp. 160.700" },
-          { name: "Harga 1 Karton Avena Minyak Goreng  (Isi-6 Kemasan 2 Liter  Pouch)", price: "Rp. 165.700" },
-          { name: "Harga 1 Karton Avena Minyak Goreng  (Isi-4 Kemasan Jerigen 5 Liter)", price: "Rp. 240.500" }
+          { name: "Harga 1 Karton Avena Minyak Goreng ( Is-12 Kemasan 1 Liter Pouch )", price: "Rp. 130.700" },
+          { name: "Harga 1 Karton Avena Minyak Goreng ( Isi-6 Kemasan 2 Liter Pouch )", price: "Rp. 129.700" },
+          { name: "Harga 1 Karton Avena Minyak Goreng ( Isi-4 Kemasan Jerigen 5 Lter )", price: "Rp. 190.500" }
         ]
       },
       {
-        groupName: "Minyak Sania",
+        groupName: "(Minyak Filma)",
         items: [
-          { name: "Harga 1 Karton Sania Minyak Goreng (Isi-12 Kemasan  1 Liter  pouch)", price: "Rp.172.500" },
-          { name: "Harga 1 Karton Sania Minyak Goreng  (Isi-6 Kemasan 2 Liter  pouch)", price: "Rp. 177.800" },
-          { name: "Harga 1 Karton Sania Minyak Goreng  (Isi-4 Kemasan 5 Liter)", price: "Rp. 270.500" },
-          { name: "Harga 1 Karton Sania Minyak Goreng Non Kolestrol  (Isi-6 Kemasan 2 Liter)", price: "Rp. 165.500" }
+          { name: "Harga 1 Karton Filma Minyak Goreng Non Kolesterol Refill ( Isi-12 Kemasan 1 Liter )", price: "Rp. 130.200" },
+          { name: "Harga 1 Karton Filma Refill ( Isi-6 Kemasan 2 Liter Kemasan Isi Ulang )", price: "Rp. 130.000" },
+          { name: "Harga Minyak Goreng Curah Biasa 1 Kg", price: "Rp. 15.000" }
         ]
       },
       {
-        groupName: "Minyak Fortune",
+        groupName: "(Minyak Sania)",
         items: [
-          { name: "Harga 1 Karton Fortune Minyak Goreng Refill Pouch  (Isi-12 Kemasan 1 Liter)", price: "Rp. 175.800" },
-          { name: "Harga 1 Karton Fortune Minyak Goreng Refill Pouch  (Isi-6 Kemasan 2 Liter)", price: "Rp. 180.200" },
-          { name: "Harga 1 Karton Fortune Minyak Goreng Djerigen  ( Isi-4 Kemasan 5 Liter)", price: "Rp. 197.000" }
+          { name: "Harga 1 Karton Sania Minyak Goreng ( Isi-12 Kemasan 1 Liter Pouch )", price: "Rp.132.500" },
+          { name: "Harga 1 Karton Sania Minyak Goreng ( Isi-6 Kemasan 2 Liter Pouch )", price: "Rp. 127.800" },
+          { name: "Harga 1 Karton Sania Minyak Goreng ( Isi-4 Kemasan 5 Lter )", price: "Rp. 220.500" },
+          { name: "Harga 1 Karton Sania Minyak Goreng Non Kolestrol ( Isi-6 Kemasan 2 Liter )", price: "Rp. 132.500" }
         ]
       },
       {
-        groupName: "Minyak Hermart",
+        groupName: "(Minyak Fortune)",
         items: [
-          { name: "Harga 1 Karton Hemart & Higienis (12) Kemasan 1 Liter", price: "Rp. 155.000" },
-          { name: "Harga Hemart minyak goreng 2000 Ml", price: "Rp. 30.000" }
+          { name: "Harga 1 Karton Fortune Minyak Goreng Refill Pouch ( Isi-12 Kemasan 1 Liter )", price: "Rp. 132.800" },
+          { name: "Harga 1 Karton Fortune Minyak Goreng Refill Pouch ( Isi-6 Kemasan 2 Liter )", price: "Rp. 130.200" },
+          { name: "Harga 1 Karton Fortune Minyak Goreng Djerigen ( Isi-4 Kemasan 5 Liter )", price: "Rp. 171.000" }
         ]
       },
       {
-        groupName: "Minyak Madina",
+        groupName: "(Minyak Hermart)",
         items: [
-          { name: "Harga 1 Karton Minyak Goreng Madina (Isi-12 Kemasan 1 Liter)", price: "Rp. 150.000" },
-          { name: "Harga 1 Karton Minyak Goreng Madina (Isi-6 Kemasan 2 Liter)", price: "Rp.157.500" },
-          { name: "Harga 1 Karton Minyaoreng Madina (Isi- 4 Kemasan 5 Liter)", price: "Rp. 280.200" }
+          { name: "Harga 1 Karton Hemart & Higienis (12) Kemasan 1 Liter", price: "Rp. 125.000" },
+          { name: "Harga Hemart Minyak Goreng 2000 Ml", price: "Rp. 30.000" }
+        ]
+      },
+      {
+        groupName: "(Minyak Madina)",
+        items: [
+          { name: "Harga 1 Karton Minyak Goreng Madina ( Isi-12 Kemasan 1 Liter )", price: "Rp. 130.000" },
+          { name: "Harga 1 Karton Minyak Goreng Madina ( Isi-6 Kemasan 2 Liter )", price: "Rp.127.500" },
+          { name: "Harga 1 Karton Minyaoreng Madina ( Isi- 4 Kemasan 5 Liter )", price: "Rp. 220.200" }
+        ]
+      },
+      {
+        groupName: "(MINYAK KITA)",
+        items: [
+          { name: "Untuk 1 Liter", price: "Harga 130/Dus Isi 12" },
+          { name: "Untuk 2 Liter", price: "Harga 132/Dus Isi 6" }
         ]
       }
     ]
