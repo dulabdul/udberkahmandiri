@@ -47,8 +47,9 @@ export default function Footer() {
               WhatsApp:{' '}
               <a
                 href={`{https://wa.me/${SITE_CONFIG.whatsappNumber}}`}
-                target='_blank'></a>
-              {SITE_CONFIG.whatsappNumber}
+                target='_blank'>
+                {SITE_CONFIG.whatsappNumber}
+              </a>
             </li>
           </ul>
         </div>
