@@ -46,6 +46,7 @@ export default function Footer() {
             <li>
               WhatsApp:{' '}
               <a
+                className='hover:text-white'
                 href={`{https://wa.me/${SITE_CONFIG.whatsappNumber}}`}
                 target='_blank'>
                 {SITE_CONFIG.whatsappNumber}
