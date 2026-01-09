@@ -43,8 +43,13 @@ export default function Footer() {
         <div>
           <h4 className='text-white font-bold mb-4'>Kontak</h4>
           <ul className='space-y-2 text-sm'>
-            <li>WhatsApp: {SITE_CONFIG.whatsappNumber}</li>
-            <li>Alamat: {SITE_CONFIG.address}</li>
+            <li>
+              WhatsApp:{' '}
+              <a
+                href={`{https://wa.me/${SITE_CONFIG.whatsappNumber}}`}
+                target='_blank'></a>
+              {SITE_CONFIG.whatsappNumber}
+            </li>
           </ul>
         </div>
       </div>
