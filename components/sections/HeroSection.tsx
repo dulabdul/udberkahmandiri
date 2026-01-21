@@ -18,7 +18,7 @@ export default function HeroSection() {
           */}
           <Image
             src='/images/hero.jpg'
-            alt='Banner Promo UD Berkah Mandiri'
+            alt='Banner Promo UD Cahaya Barokah'
             width={1200}
             height={500}
             className='w-full h-auto object-cover block'
